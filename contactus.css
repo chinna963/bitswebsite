@@ -1,0 +1,21 @@
+form{
+    border: solid 1px;
+    width: 600px;
+    margin-left: 450px;
+    background-color: rgb(185, 167, 115);
+    padding-left: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: palevioletred;
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+    color: aqua;
+}
+input{
+    height: 25px;
+    width: 400px;
+}

@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding:opx;
+}
+.obox{
+    border: solid 1px;
+    height: 150px;
+    display: flex;
+}
+#inbox1,#inbox2{
+    border: solid 1px;
+    height: 150px;
+}
+#inbox1{
+    width: 150px;
+}
+#inbox2{
+    width: 1110px;
+    text-align: center;
+}
+#clgname{
+    font-size: 60px;
+    color: blue;
+}
+#scrollclg{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 130px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+    background-color: #000080;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    border-radius: 10px  ;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: #ffff;
+    font-size: 25px;  
+    text-decoration: "null;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+    background-color: #ff4500;
+}
+.outerbox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 400px;
+    z-index: -1;
+}
+#in1{
+    width: 650px;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 650px 400px;
+    animation-name: imgchange;
+    animation-duration: 10s  ;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    10%{
+        background-image: url(img2.jpg);
+    }
+    20%{
+        background-image: url(img3.jpg);
+    }
+    30%{
+        background-image: url(img4.jpg);
+    }
+    40%{
+        background-image: url(img5.jpg);
+    }
+    50%{
+        background-image: url(img6.jpg);
+    }
+    60%{
+        background-image: url(img7.jpg);
+    }
+}
+#in2,#in3{
+    width: 250px;
+}
+#placebox{
+    border: solid 1px;
+    height: 250 px;
+}
+#placements{
+    text-align: center;
+    font-size: 60px;
+    color: violet;
+}
